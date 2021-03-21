@@ -1,6 +1,6 @@
 const healthHandler = (req, res) => {
   res.status(200).json({
-    message: "Running",
+    message: 'Running',
   });
 };
 module.exports = { healthHandler };
